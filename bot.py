@@ -21,9 +21,7 @@ class Bot(Client):
         me = await self.get_me()      
         print(f"{me.first_name} | @{me.username} 𝚂𝚃𝙰𝚁𝚃𝙴𝙳...⚡️")
        
-    async def stop(self, *args):
-       await super().stop()      
-       print("Bot Restarting........")
+)
 
 
 bot = Bot()
